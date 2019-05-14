@@ -22,15 +22,21 @@ nav * {
   background-color: #84A1C0;
 }
 
-.sidebar_ul ul {
+.dropdown_mainSection ul, .dropdown_page ul, .dropdown_subSection ul, .dropdown_subPage ul{
   display: none;
 }
 
-.sidebar_ul li:hover ul {
+.dropdown_mainSection li:hover > ul, .dropdown_page li:hover > ul, .dropdown_subSection li:hover > ul, .dropdown_subPage li:hover >  ul{
   display: block;
-  background-color: #9B181C;
 }
 
+.dropdown_page {
+  background-color: #096DAB
+}
+
+.dropdown_subPage {
+  background-color: #9B181C;
+}
 
 * {
 	box-sizing: border-box;
