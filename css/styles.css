@@ -80,8 +80,23 @@ main .all_cards{
 	width: 900px;
 }
 
-main .all_cards img{
-	margin: 0;
+main .card_img{
+	width: 390px;
+}
+
+main .all_cards .single_card{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  background: orange;
+}
+
+main .card_intro{
+  width:510px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main .all_cards .single_card h2{
