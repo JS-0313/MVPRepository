@@ -1,0 +1,98 @@
+nav * {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.sidebar_nav {
+  background-color: #123768;
+  height: 100%;
+  width: 200px;
+}
+
+.sidebar_nav a {
+  display: block;
+  color: white;
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px dotted white;
+}
+
+.sidebar_nav a:hover {
+  background-color: #84A1C0;
+}
+
+.sidebar_ul ul {
+  display: none;
+}
+
+.sidebar_ul li:hover ul {
+  display: block;
+  background-color: #9B181C;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	line-height: 1;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main article{
+	margin:auto;
+	background: orange;
+	text-align: left;
+	width:900px;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+}
+
+main article .intro_text{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+}
+
+main article .intro_text h1{
+	padding:5px;
+	font-size: 24px;
+}
+
+main article .intro_text p{
+	padding:5px;
+	font-size: 20px;
+}
+
+main .all_cards{
+	margin: auto;
+	display: flex;
+  flex-direction: column;
+	width: 900px;
+}
+
+main .all_cards img{
+	margin: 0;
+}
+
+main .all_cards .single_card h2{
+	 margin: auto;
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: black;
+
+}
+
+main .all_cards .single_card a{
+		text-decoration: none;
+}
