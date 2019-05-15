@@ -9,18 +9,29 @@
 
 <body>
   <header>
-    <div class="topnav">
+    <nav class="topnavbar">
+      <div class="toggle">
+        <i class="fa fa-bars menu" aria-hidden="true"></i>
+      </div>
       <ul>
-        <li class="CDUHome"><a href="https://www.cdu.edu.au/">CDU Home</a></li>
-        <li class="Courses"><a href="http://stapps.cdu.edu.au/f?p=100:30:16252611669092:">Courses</a></li>
-        <li class="FacultiesSchools"><a href="https://www.cdu.edu.au/faculties-schools">Faculties and Schools</a></li>
-        <li class="LearningTeaching"><a href="https://www.cdu.edu.au/learning-teaching">Learning and Teaching</a></li>
-        <li class="Library"><a href="https://www.cdu.edu.au/library/">Library</a></li>
-        <li class="CampusCenters"><a href="https://www.cdu.edu.au/campuses-centres">Campus and Centers</a></li>
-        <li class="Contact"><a href="#">Contact Us</a></li>
-        <li class="Map"><a href="https://www.cdu.edu.au/about/site-map">Site Map</a></li>
+        <li><a href="https://www.cdu.edu.au/">CDU Home</a></li>
+        <li><a href="http://stapps.cdu.edu.au/f?p=100:30:16252611669092:">Courses</a></li>
+        <li><a href="https://www.cdu.edu.au/faculties-schools">Faulties and Schools</a></li>
+        <li><a href="https://www.cdu.edu.au/learning-teaching">Learning and Teaching</a></li>
+        <li><a href="https://www.cdu.edu.au/library/">Library</a></li>
+        <li><a href="https://www.cdu.edu.au/campuses-centres">Campus and Centers</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="https://www.cdu.edu.au/about/site-map">Site Map</a></li>
       </ul>
-    </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.menu').click(function(){
+          $('ul').toggleClass('active');
+        })
+      })
+    </script>
   </header>
   <nav class="sidebar_nav">
     <ul class="dropdown_mainSection">
