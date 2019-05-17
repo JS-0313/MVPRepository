@@ -231,16 +231,13 @@ main {
   position: absolute;
 }
 
+main .main_page_intro{
+    position: relative;
+    background-color: white;
+}
+
 /*main setting for large screens(>767px,ipad)*/
 @media (min-width:768px){
-  .breadcrumb {
-    margin-bottom:0px;
-  }
-
-  nav *{
-    display:block;
-  }
-
   main {
     top:10%;
     left:20%;
@@ -269,24 +266,14 @@ main {
     padding: 5px;
   }
 
-  main .main_page_intro .text_box{
-
-  }
-
-  main .main_page_intro .intro_box{
+  main .main_page_intro .intro_content{
     font-size: 18px;
   }
-
-
-
 }
 /*top intro image section on small screen view*/
-main .main_page_intro{
-    position: relative;
-    background-color: white;
-}
+
 @media (max-width:767px){
-  main .main_page_intro .text_box{
+  main .main_page_intro .intro_title{
     position: absolute;
     z-index: 1;
     margin: 0 auto;
@@ -299,12 +286,10 @@ main .main_page_intro{
     color: #fff;
     width: 80%;}
 
-    main .intro_box{
+    main .intro_content p{
       display: none;
     }
 }
-
-
 
 main .main_page_intro img{
   max-width: 100%;
@@ -322,6 +307,7 @@ main .main_page_intro img{
   background-color: #eee;
   margin-top: 0px;
   margin-left:5%;
+  margin-bottom: 0px;
   text-align: left;
 }
 
@@ -363,6 +349,26 @@ main .all_cards .single_card{
   margin-bottom: 15px;
 }
 
+main .card_intro{
+  width:100%;
+  font-size: 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
+main .all_cards .single_card h2{
+	 margin-bottom: 5px;
+   color: black;
+   font: bold 40px, Sans-Serif;
+   letter-spacing: -1px;
+   text-align: left;
+
+}
+
+main .all_cards .single_card a{
+		text-decoration: none;
+}
+
 @media (max-width:767px){
   main .card_img img{
     width: auto ;
@@ -394,25 +400,6 @@ main .all_cards .single_card{
 
 }
 
-main .card_intro{
-  width:100%;
-  font-size: 15px;
-  text-align: left;
-  border-bottom: 1px solid rgba(100,100,100,0.3);
-}
-
-main .all_cards .single_card h2{
-	 margin-bottom: 5px;
-   color: black;
-   font: bold 40px, Sans-Serif;
-   letter-spacing: -1px;
-   text-align: left;
-
-}
-
-main .all_cards .single_card a{
-		text-decoration: none;
-}
 
 /*contact and support on mobile screen*/
 .contact{
