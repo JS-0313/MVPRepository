@@ -10,7 +10,7 @@
 
 <body>
   <div class="container">
-      <nav class="topnavbar">
+    <nav class="topbar_nav">
         <div class="toggle">
           <i class="fa fa-bars menu" aria-hidden="true"></i>
         </div>
@@ -25,8 +25,8 @@
           <li><a href="https://www.cdu.edu.au/about/site-map">Site Map</a></li>
         </ul>
       </nav>
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
         $(document).ready(function(){
           $('.menu').click(function(){
             $('ul').toggleClass('active');
@@ -156,6 +156,19 @@
       </ul><dfn></dfn>
     </nav>
 
+    <nav id="mobile_nav_bar">
+      <ul>
+        <li>placeholder</li>
+        <li>placeholder</li>
+        <li>placeholder</li>
+      </ul>
+      <div class="toggle_btn" onclick="toggleSidebar()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
     <main>
       <div class="main_page_intro">
         <img src="images/main_page_intro.jpg" alt="introduction of note taking">
@@ -166,19 +179,6 @@
           <div class="intro_box">
             <p>Good skills in taking and making notes will help you, as an active learner, to organise, categorise and recall information you can use when completing assignments or revising for exams.</p>
           </div>
-        </div>
-      </div>
-
-      <div id="mobile_nav_bar">
-        <ul>
-          <li>placeholder</li>
-          <li>placeholder</li>
-          <li>placeholder</li>
-        </ul>
-        <div class="toggle_btn" onclick="toggleSidebar()">
-          <span></span>
-          <span></span>
-          <span></span>
         </div>
       </div>
 
