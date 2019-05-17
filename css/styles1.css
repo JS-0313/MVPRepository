@@ -2,6 +2,8 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
+  font-family: sans-serif;
+  background-color: #eee;
 }
 
 .container {
@@ -106,7 +108,7 @@ nav * {
 }
 
 .sidebar_nav a:hover {
-  background-color: #84A1C0;
+  background-image:linear-gradient(#00064D, black);
 }
 
 .dropdown_mainSection ul, .dropdown_page ul, .dropdown_subSection ul, .dropdown_subPage ul{
@@ -117,12 +119,20 @@ nav * {
   display: block;
 }
 
-.dropdown_page li {
-  background-color: #096DAB;
+.dropdown_mainSection a {
+  background-image: linear-gradient(#103768, #00264D);
 }
 
-.dropdown_subPage li {
-  background-color: #9B181C;
+.dropdown_page a {
+  background-image: linear-gradient(#0F52BA, #0C3D92);
+}
+
+.dropdown_subSection a {
+  background-image: linear-gradient(green, darkgreen);
+}
+
+.dropdown_subPage a {
+  background-image: linear-gradient(#9B181C, darkred);
 }
 
 * {
