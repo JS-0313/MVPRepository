@@ -1,3 +1,32 @@
+/* Heading CSS */
+/* text CSS used for headings found here: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text and here https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing */
+h1 {
+  font-size: 35px;
+  font-family:serif;
+  font-style: normal;
+  word-spacing: .3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size:30px ;
+  font-family:serif ;
+  font-style:normal;
+  word-spacing: .3rem;
+}
+
+h3 {
+  font-size:25px ;
+  font-family:serif ;
+  font-style:normal ;
+  word-spacing: .3rem;
+}
+
+p, strong, em{
+  font-size:16px ;
+  font-family:arial ;
+}
+
 /*some basic css setting about body and .container*/
 *{
   box-sizing: border-box;
@@ -367,6 +396,67 @@ main .all_cards .single_card h2{
 
 main .all_cards .single_card a{
 		text-decoration: none;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 1rem;
+  color: #130000;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all.5s ease-out;
+}
+
+.label:hover {
+  color: #808080;
+}
+
+.label::before {
+  content: '';
+  display: in-inline-block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid currentColor;
+  vertical-align: middle;
+  margin right: .7rem;
+  transform: translateY(-2px);
+  transition: transform .2s ease-out;
+}
+
+.collapse-content .content-inside {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: .5rem 1rem;
+}
+
+.collapse-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.togglecollapse:checked + .label + .collapse-content {
+  max-height: 350px;
+}
+
+.togglecollapse:checked + .label::before{
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.togglecollapsecollapse:checked + .label {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 @media (max-width:767px){

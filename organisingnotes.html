@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-  <title>MVP</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/styles1.css" rel="stylesheet" type="text/css">
+  <title>Study Skills | Note Organisation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="script/script.js"></script>
 </head>
+
 <body>
   <div class="container">
-    <header>
-      <nav class="topnavbar">
+    <nav class="topbar_nav">
         <div class="toggle">
           <i class="fa fa-bars menu" aria-hidden="true"></i>
         </div>
@@ -23,15 +25,14 @@
           <li><a href="https://www.cdu.edu.au/about/site-map">Site Map</a></li>
         </ul>
       </nav>
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
         $(document).ready(function(){
           $('.menu').click(function(){
             $('ul').toggleClass('active');
           })
         })
       </script>
-    </header>
 
     <nav class="sidebar_nav">
       <h1> NAVIGATION </h1>
@@ -152,65 +153,138 @@
           </ul>
         </li>
 
-      </ul>
+      </ul><dfn></dfn>
     </nav>
 
-    <main class="mainbody">
-    <article class="main_page_intro">
-      <div class="intro_text">
-        <h1>Introduction to Note Organisation:</h1>
-        <p>You may have explored some note layouts you can use to record, review and annotate what you read and hear as part of your learning, but it is also important to organise and store your notes effectively for easy access.</p>
-        <div class="collaps">
-          <input id="collapsible1" class="togglecollapse" type="checkbox">
-          <label for="collapsible1" class="label">Tools</label>
-          <div class="collapse-content">
-            <div class="content-inside">
-              <p>Pens, pencils, coloured highlighters and paper note pads are familiar tools for hand written notes. However, there are other effective tools for recording lecture material and for making notes electronically on a computer, tablet, iPad or smartphone for example. A variety of note-taking software and mobile applications are also available.<br><br>It can be useful to audio record lectures for later review and follow-up note making. Digital recorders are increasingly affordable and files can be transferred to a computer. Many mobile phones also enable audio recording. Mobile devices such as iPads and other tablets and smartpens are becoming popular options.  Please note that you must first have the permission of the lecturer to make such digital recordings.</p>
-            </div>
+    <nav id="mobile_nav_bar">
+      <ul>
+        <li>placeholder</li>
+        <li>placeholder</li>
+        <li>placeholder</li>
+      </ul>
+      <div class="toggle_btn" onclick="toggleSidebar()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <main>
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">study skills</a></li>
+        <li><a href="#">Note taking</a></li>
+      </ul>
+
+      <article class="Note_Organisation">
+      <div class="Organising_Notes_Intro">
+        <div class="content">
+          <div class="ContentTitle">
+            <h2>Organising Your Notes:</h2>
+          </div>
+          <div class="ContentText1">
+            <p>On this page you will learn about the tips and tools used when organising your notes, Physical and Digital, as well as how to use your notes in revision.</p>
           </div>
         </div>
-        <div class="collaps">
-          <input id="collapsible2" class="togglecollapse" type="checkbox">
-          <label for="collapsible2" class="label">Storing Your Notes</label>
-          <div class="collapse-content">
-            <div class="content-inside">
-              <p>Store your notes in a loose-leaf folder, or a ring binder, so that you can move the pages around as well as add any new material such as handouts and other reference matter.</p>
+
+        <ul class="Breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Study Skills</a></li>
+          <li><a href="#">Note Taking</a></li>
+        </ul>
+
+        <div class="all_cards">
+          <div class="single_card">
+            <div class="ContentText2">
+
+              <div class="collaps">
+                <input id="collapsible1" class="togglecollapse" type="checkbox">
+                <label for="collapsible1" class="label">Click Here to Read About Tools:</label>
+                <div class="collapse-content">
+                  <div class="content-inside">
+                    <p>This is a list of tools and resources you can use when organising your physical notes:</p>
+                    <ul>
+                      <li>Loose-Leaf Folder or Ring Binder</li>
+                      <li>Coloured pens, pencils and highlighters</li>
+                      <li>Note Pad Paper</li>
+                      <li>Hole Punch</li>
+                    </ul>
+                    <p>This is a list of tools and resources you can use when organising your digital notes:</p>
+                    <ul>
+                      <li>Laptop, Ipad or Tablet</li>
+                      <li>Audio Recording, with your lecturer's permission</li>
+                      <li>Google Drive, OneDrive or iCloud</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="collaps">
+                <input id="collapsible2" class="togglecollapse" type="checkbox">
+                <label for="collapsible2" class="label">Click Here to Read More on Organising Your Physical Notes:</label>
+                <div class="collapse-content">
+                  <div class="content-inside">
+                    <p>When you begin organising your notes, remember the following:</p>
+                    <ul>
+                      <li>Create a seperate pile/folder for each class</li>
+                      <li>Use a ring binder or a loose-leaf folder to avoid running out of storage space</li>
+                      <li>Devide your notes into Major topics and Minor topics</li>
+                      <li>Make a summary of your notes for skim reading</li>
+                      <li>Label your deviders clearly</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            <div class="collaps">
+              <input id="collapsible3" class="togglecollapse" type="checkbox">
+              <label for="collapsible3" class="label">Click Here to Read More on Organising Your Digital Notes:</label>
+              <div class="collapse-content">
+                <div class="content-inside">
+                  <p>When you begin organising your notes, remember the following:</p>
+                  <ul>
+                    <li>Make a summary of each subject</li>
+                    <li>Create back-ups of your notes on websites such as Google Drive and OneDrive</li>
+                    <li>Update your backups regularly to avoid loosing information</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="collaps">
-          <input id="collapsible3" class="togglecollapse" type="checkbox">
-          <label for="collapsible3" class="label">Using Your Notes for Revision</label>
-          <div class="collapse-content">
-            <div class="content-inside">
-              <p>Your notes are a key part of your revision strategies when preparing for exams, or indeed, for preparing for active, informed participation in tutorials and when researching for and writing your assignments. Organising and reviewing your notes can also help you make connections between individual ideas and gain an overview of the whole subject.
-                <br><br>You will need to revisit and work on the notes you have taken throughout the semester.
-                <br>Remember, revision is best done throughout the semester, not just when exams are scheduled. Time management is very important as your semester plan should include exam preparation and dates, supported by specific weekly plans for the week leading up to and during your exams.
-                <br><br>
-                Visit the Exams section for information on revising for exams.
-                <br>Visit the Managing Your Studies section for information on time management
-                <ul>
-                  <li>Organise notes in a logical way so you can find important information quickly</li>
-                  <li>Read them again, highlighting key words and ideas</li>
-                  <li>Summarise your notes to help remember ideas and information – your goal now is to minimise them to serve as a memory aid</li>
-                  <li>Consider creating mindmaps or brief outlines to summarise.</li>
-                </ul>
-              </p>
+
+            <div class="collaps">
+              <input id="collapsible4" class="togglecollapse" type="checkbox">
+              <label for="collapsible4" class="label">Click Here to Read About Using Your Notes For Revision:</label>
+              <div class="collapse-content">
+                <div class="content-inside">
+                  <p>Organising and Reviewing your notes can help you make connections between ideas and gain an overview of the subject as a whole.
+Remember to constantly revise throughout the semester, this will help keep the information in your mind.
+When reviewing your notes, highlight key words and ideas, and resummarise the information to make it as small as possible.</p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="collaps">
-          <input id="collapsible4" class="togglecollapse" type="checkbox">
-          <label for="collapsible4" class="label">Regular Revision</label>
-          <div class="collapse-content">
-            <div class="content-inside">
-              <p>It is a good idea to revise your notes on a regular, ongoing basis, say for five to ten minutes once a week. Each time you skim through your notes the material will become a little more firmly embedded in your memory.</p>
-            </div>
+
           </div>
         </div>
       </div>
+    </div>
     </article>
-  </main>
+
+      </div>
+
+      <div class="contact">
+          <h2>Contact and support<h2>
+            <ul class="contact_info_list">
+              <li><a href=#>Check our FAQs</a></li>
+              <li><a href=#>Call for help</a></li>
+              <li><a href=#>Follow us on Facebook</a></li>
+            </ul>
+      </div>
+
+      <footer>
+        <img src="images/cdu_logo.png" alt="CDU logo">
+      </footer>
+    </main>
+  </div>
 
 </body>
 </html>
