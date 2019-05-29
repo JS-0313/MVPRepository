@@ -22,13 +22,13 @@ h3 {
   word-spacing: .3rem;
 }
 
-p, strong, em{
+p, strong, em {
   font-size:16px ;
   font-family:arial ;
 }
 
 /*some basic css setting about body and .container*/
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -52,7 +52,7 @@ body {
 /*common top navigation bar styles for all sizes of screens*/
 .topbar_nav {
   width: 100%;
-  min-height: 10%;
+  min-height: auto;
   background: #98161a;
   position: fixed;
   z-index: 2;
@@ -88,8 +88,6 @@ body {
   .topbar_nav ul li {
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 18px;
   }
 
@@ -253,7 +251,7 @@ main {
 	font-size: 14px;
 	margin: 0;
 	padding: 0;
-  text-align: center;
+  text-align: left;
   display:flex;
   flex-direction: column;
   justify-content: center;
