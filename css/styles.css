@@ -1,5 +1,6 @@
 /* Heading CSS */
 /* text CSS used for headings found here: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text and here https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing */
+/* added line to commit since program glitched? */
 h1 {
   font-size: 35px;
   font-family:serif;
@@ -22,13 +23,13 @@ h3 {
   word-spacing: .3rem;
 }
 
-p, strong, em{
+p, strong, em {
   font-size:16px ;
   font-family:arial ;
 }
 
 /*some basic css setting about body and .container*/
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -52,7 +53,7 @@ body {
 /*common top navigation bar styles for all sizes of screens*/
 .topbar_nav {
   width: 100%;
-  min-height: 10%;
+  min-height: auto;
   background: #98161a;
   position: fixed;
   z-index: 2;
@@ -88,8 +89,6 @@ body {
   .topbar_nav ul li {
     list-style: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 18px;
   }
 
