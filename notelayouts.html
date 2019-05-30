@@ -199,6 +199,8 @@
         <li><a href="#">Note Layouts</a></li>
       </ul>
 
+      <div class="toggleNight"></div>
+      <div class="pageContent">
       <div class=layouts_box>
         <div class=layout_choice_box>
           <button class=linear onclick="change_linear()">
@@ -232,6 +234,18 @@
           <p> There are many ways you can lay out your notes. Some common approaches are demonstrated in this section. Click on the labels on the left to view more details. </p>
         </div>
       </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.toggleNight').click(function(){
+          $('.toggleNight').toggleClass('active')
+            $('body').toggleClass('night')
+            $('main').toggleClass('night')
+          })
+        })
+    </script>
+
 
       <div class="contact">
           <h2>Contact and support<h2>
