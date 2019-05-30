@@ -509,6 +509,7 @@ input[type='checkbox'] {
   main .orgnotesintro h2 {
     text-align: center;
   }
+
   main .tipstools_box {
     margin: auto;
     display: flex;
@@ -543,6 +544,62 @@ input[type='checkbox'] {
   }
 
   main .tipstools_content {
+    height: auto;
+    width: 100%;
+  }
+
+  main .techniquesintro {
+  display: block;
+  background-color: white;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 1%;
+  height: auto;
+  transition: 0.5s;
+  }
+
+  main .techniquesintro p {
+    padding: 1%;
+  }
+
+  main .techniquesintro h2 {
+    text-align: center;
+  }
+
+  main .techniques_box {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    background-color: white;
+    padding: 1%;
+    left:5%;
+    right:5%;
+    transition: 0.5s;
+  }
+
+  main .techniques_choicebox {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+
+  main .techniques_choicebox, .issues, .techniques, .abbreviations {
+    background-color: white;
+    margin:5px;
+    padding: 5px;
+    border: 1px solid rgba(100,100,100,0.3);
+    transition: 0.5s;
+  }
+
+  main .techniques_choicebox h2 {
+    font-size: 25px;
+    font-family:arial;
+  }
+
+  main .techniques_content {
     height: auto;
     width: 100%;
   }

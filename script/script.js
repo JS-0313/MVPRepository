@@ -41,3 +41,70 @@ function change_revision() {
                 "<li>Make a summary of your notes for skim reading</li>" +
               "</ul>";
 }
+
+function change_issues() {
+  document.querySelector('.techniques_content').innerHTML = "<p>Watch out for copyright! You must get permission from your lecturer to use images, audio and recordings from class in your work!</p>";
+}
+
+function change_techniques() {
+  document.querySelector('.techniques_content').innerHTML = "<ul>" +
+                                                              "<li>Annotation - Adding your own comments to text that explains or critiques the information. These can be written in the margins or on sticky notes.</li>" +
+                                                              "<li>Diagrams - A visual form, can be mind maps, charts or tables. See Note Layouts for more information.</li>" +
+                                                              "<li>Paraphrasing - Making the information smaller and in your own words. This can make it easier to understand.</li>" +
+                                                              "<li>Summaries - Focusing on the main points, making a short overview.</li>" +
+                                                            "</ul>";
+}
+
+function change_abbreviations() {
+  document.querySelector('.techniques_content').innerHTML = "<p>Abbreviations are shortened forms of words. Using abbreviations can help you save space, and help you focus on the main topics. Listed below are some abbreviations and their meanings:</p>" +
+                                                            "<table>" +
+                                                              "<tr>"
+                                                                "<th>Abbreviation</th>" +
+                                                                "<th>Meaning</th>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>Re</td>" +
+                                                                "<td>About, Regarding or Concerning</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>Vs</td>" +
+                                                                "<td>Against,Opposite or Versus</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>&/+</td>" +
+                                                                "<td>And</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>Etc</td>" +
+                                                                "<td>And so on and So forth</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>≈</td>" +
+                                                                "<td>Approximately or Roughly</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>Defn</td>" +
+                                                                "<td>Definition</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>Eg</td>" +
+                                                                "<td>Example</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>*</td>" +
+                                                                "<td>Important</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>ie</td>" +
+                                                                "<td>That is</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>w/</td>" +
+                                                                "<td>With</td>" +
+                                                              "</tr>" +
+                                                              "<tr>" +
+                                                                "<td>w/out</td>" +
+                                                                "<td>Without</td>" +
+                                                              "</tr>" +
+                                                            "</table>";
+}
