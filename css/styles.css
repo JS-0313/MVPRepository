@@ -342,6 +342,7 @@ main .main_page_intro img{
   margin-left:5%;
   margin-bottom: 0px;
   text-align: left;
+  transition: 0.5s;
 }
 
 .breadcrumb li {
@@ -498,6 +499,7 @@ input[type='checkbox'] {
   margin-left: 5%;
   padding-top: 1%;
   height: auto;
+  transition: 0.5s;
   }
 
   main .orgnotesintro p {
@@ -516,6 +518,7 @@ input[type='checkbox'] {
     padding: 1%;
     left:5%;
     right:5%;
+    transition: 0.5s;
   }
 
   main .tipstools_choicebox {
@@ -531,6 +534,7 @@ input[type='checkbox'] {
     margin:5px;
     padding: 5px;
     border: 1px solid rgba(100,100,100,0.3);
+    transition: 0.5s;
   }
 
   main .tipstools_choicebox h2 {
@@ -554,6 +558,7 @@ input[type='checkbox'] {
   margin-left:auto;
   margin-right: auto;
   margin-bottom: 20px;
+  transition: 0.5s;
 }
 
 .contact .contact_info_list{
@@ -605,4 +610,93 @@ footer img{
 .toggleNight.active {
   background: #00151f;
   border: 2px solid #fff;
+}
+
+.pageContent h2 {
+  transition: 0.5s;
+}
+
+.pageContent p{
+  transition: 0.5s;
+}
+
+.pageContent ul {
+  transition: 0.5s;
+}
+
+body.night .pageContent{
+  background: #00151f;
+}
+
+body.night .pageContent h2{
+  color: #fff;
+}
+
+body.night .pageContent p {
+  color: #fff;
+}
+
+body.night .pageContent ul {
+  color: #fff;
+}
+
+main.night .orgnotesintro{
+  background: #00151f;
+}
+
+main.night .tipstools_box {
+  background: #00151f;
+}
+
+main.night .tipstools_choicebox {
+  background: #2A2929;
+}
+
+main.night .tools {
+  background: #1B1B1B;
+}
+
+main.night .orgnotes {
+  background: #1B1B1B;
+}
+
+main.night .orgdigitalnotes {
+  background: #1B1B1B;
+}
+
+main.night .revision {
+  background: #1B1B1B;
+}
+
+main.night .breadcrumb {
+  background-color: #00151f;
+
+}
+
+main.night .breadcrumb li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main.night .breadcrumb li a:hover {
+  color: #B5B0B0;
+  text-decoration: underline;
+}
+
+main.night .breadcrumb li+li:before {
+  padding: 8px;
+  color: #fff;
+  content: "/\00a0";
+}
+
+main.night .contact {
+  background-color: #00151f;
+}
+
+main.night .contact h2 {
+  color: #fff;
+}
+
+main.night .contact_info_list a{
+  color: #fff;
 }
