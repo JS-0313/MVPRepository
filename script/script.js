@@ -57,54 +57,16 @@ function change_techniques() {
 
 function change_abbreviations() {
   document.querySelector('.techniques_content').innerHTML = "<p>Abbreviations are shortened forms of words. Using abbreviations can help you save space, and help you focus on the main topics. Listed below are some abbreviations and their meanings:</p>" +
-                                                            "<table>" +
-                                                              "<tr>"
-                                                                "<th>Abbreviation</th>" +
-                                                                "<th>Meaning</th>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>Re</td>" +
-                                                                "<td>About, Regarding or Concerning</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>Vs</td>" +
-                                                                "<td>Against,Opposite or Versus</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>&/+</td>" +
-                                                                "<td>And</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>Etc</td>" +
-                                                                "<td>And so on and So forth</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>≈</td>" +
-                                                                "<td>Approximately or Roughly</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>Defn</td>" +
-                                                                "<td>Definition</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>Eg</td>" +
-                                                                "<td>Example</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>*</td>" +
-                                                                "<td>Important</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>ie</td>" +
-                                                                "<td>That is</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>w/</td>" +
-                                                                "<td>With</td>" +
-                                                              "</tr>" +
-                                                              "<tr>" +
-                                                                "<td>w/out</td>" +
-                                                                "<td>Without</td>" +
-                                                              "</tr>" +
-                                                            "</table>";
+                                                            "<ul>" +
+                                                              "<li>Re -> About, Regarding or Concerning</li>" +
+                                                              "<li>Vs -> Against, Opposite or Versus</li>" +
+                                                              "<li>% Or + -> And</li>" +
+                                                              "<li>Etc -></li>" +
+                                                              "<li>	&asymp; -> Approximately or Roughly</li>" +
+                                                              "<li>Defn -> Definition</li>" +
+                                                              "<li>Eg -> Example</li>" +
+                                                              "<li>* -> Important</li>" +
+                                                              "<li>Ie< -> That is/li>" +
+                                                              "<li>W/ -> With</li>" +
+                                                              "<li>W/out -> Without</li>"
 }
