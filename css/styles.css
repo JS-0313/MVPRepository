@@ -486,12 +486,29 @@ input[type='checkbox'] {
     left:10%;
 }
 
+  main .orgnotesintro {
+  display: block;
+  background-color: white;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 1%;
+  height: auto;
+  }
+
+  main .orgnotesintro p {
+    padding: 1%;
+  }
+
+  main .orgnotesintro h2 {
+    text-align: center;
+  }
   main .tipstools_box {
     margin: auto;
     display: flex;
     flex-direction: row;
     width: 90%;
     background-color: white;
+    padding: 1%;
     left:5%;
     right:5%;
   }
