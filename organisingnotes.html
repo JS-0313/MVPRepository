@@ -185,6 +185,8 @@
         <li><a href="#">Organising Your Notes</a></li>
       </ul>
 
+      <div class="toggleNight"></div>
+      <div class="pageContent">
       <div class ="orgnotesintro">
         <h2>Organising Your Notes</h2>
         <p>On this page you will learn about the tips and tools used when organising your notes, Physical and Digital, as well as how to use your notes in revision.</p>
@@ -225,6 +227,16 @@
                 </ul>
         </div>
       </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.toggleNight').click(function(){
+          $('.toggleNight').toggleClass('active')
+            $('body').toggleClass('night')
+          })
+        })
+    </script>
 
       <div class="contact">
           <h2>Contact and support<h2>
