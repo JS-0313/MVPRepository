@@ -164,7 +164,7 @@ body.night{
   margin: 0;
 }
 .sidebar_nav li {
-  background-color: #00264D;
+  background-color: #98161A;
 }
 
 .sidebar_nav a {
@@ -172,12 +172,13 @@ body.night{
   color: white;
   padding: 1% 5% 1% 5%;
   border-bottom: 1px dotted white;
+  text-decoration: none;
   font-size: 1.25vw;
   text-align: center;
 }
 
 .sidebar_nav a:hover {
-  background-image:linear-gradient(#00064D, black);
+  background-image: linear-gradient(#DC494F, #B23C40);
 }
 
 .dropdown_mainSection ul, .dropdown_page ul, .dropdown_subSection ul, .dropdown_subPage ul{
@@ -189,19 +190,19 @@ body.night{
 }
 
 .dropdown_mainSection a {
-  background-image: linear-gradient(#103768, #00264D);
+  background-image: linear-gradient(#98161A, darkred);
 }
 
 .dropdown_page a {
-  background-image: linear-gradient(#0F52BA, #0C3D92);
+  background-image: linear-gradient(#3F50DA , #00264D);
 }
 
 .dropdown_subSection a {
-  background-image: linear-gradient(green, darkgreen);
+  background-image: linear-gradient( #313FAB, #062B21);
 }
 
 .dropdown_subPage a {
-  background-image: linear-gradient(#9B181C, darkred);
+  background-image: linear-gradient(#232C77, #0C3D92);
 }
 
 @media(max-width:768px){
@@ -248,11 +249,6 @@ body.night{
   height: 5px;
   background: #151719;
   margin: 5px 0px;
-}
-
-#mobile_nav_bar a{
-  color: #fff;
-  text-decoration: none;
 }
 
 @media (min-width:768px){
@@ -385,8 +381,6 @@ main .main_page_intro img{
 /*card component on small screen*/
 main .all_cards{
   margin: auto;
-	padding-left: 10px;
-  padding-right: 10px;
 	display: block;
 	width: 90%;
   left:5%;
@@ -569,16 +563,16 @@ input[type='checkbox'] {
   }
 
   main .techniquesintro {
-  display: block;
-  background-color: white;
-  border: 1px solid black;
-  box-shadow: 5px 5px 5px;
-  width: 90%;
-  margin-left: 5%;
-  padding-top: 1%;
-  margin-bottom: 2%;
-  height: auto;
-  transition: 0.5s;
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+    height: auto;
+    transition: 0.5s;
   }
 
   main .techniquesintro p {
@@ -631,7 +625,73 @@ input[type='checkbox'] {
     padding-left: 1%;
   }
 
+  main .effectiveintro {
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+    height: auto;
+    transition: 0.5s;
+  }
+
+  main .effectiveintro p {
+    padding: 1%;
+  }
+
+  main .effectiveintro h2 {
+    text-align: center;
+  }
+
+  main .effective_box {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    text-align: left;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    padding: 1%;
+    left:5%;
+    right:5%;
+  }
+
+
+  main .effective_choicebox {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+
+  main .effective_choicebox, .inLectures, .duringLecture, .notesfromtext, .afterLecture {
+    background-color: white;
+    margin:5px;
+    padding: 5px;
+    border: 1px solid rgba(100,100,100,0.3);
+    transition: 0.5s;
+  }
+
+  main .effective_choicebox h2 {
+    font-size: 25px;
+    font-family:arial;
+  }
+
+  main .effective_content {
+    height: auto;
+    width: 100%;
+    padding-left: 1%;
+  }
+
 }
+
+
+
 
 
 /*contact and support on mobile screen*/

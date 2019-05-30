@@ -5,7 +5,7 @@
   <title>Study Skills | Note Layouts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0">
   <link href="css/notelayouts.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="script/notelayouts.js"></script>
+  <script type="text/javascript" src="script/script.js"></script>
 </head>
 
 <body>
@@ -160,17 +160,17 @@
 
       <nav id="mobile_nav_bar">
       <ul>
-        <li>Study Skills Home</li>
-        <li>Academic Assignments</li>
-        <li>Academic Writing</li>
-        <li>Critical Thinking</li>
-        <li>Referencing</li>
-        <li>Exams</li>
-        <li>Lectures and Tutorials</li>
-        <li>Note Making</li>
-        <li>Research and Reading</li>
-        <li>Managing Your Studies</li>
-        <li>Videos and Interactives</li>
+        <li><a href="#">Study Skills Home</a></li>
+        <li><a href="#">Academic Assignments</a></li>
+        <li><a href="#">Academic Writing</a></li>
+        <li><a href="#">Critical Thinking</a></li>
+        <li><a href="#">Referencing</a></li>
+        <li><a href="#">Exams</a></li>
+        <li><a href="#">Lectures and Tutorials</a></li>
+        <li><a href="index.html">Note Making</a></li>
+        <li><a href="#">Research and Reading</a></li>
+        <li><a href="#">Managing Your Studies</a></li>
+        <li><a href="#">Videos and Interactives</a></li>
       </ul>
       <div class="toggle_btn" onclick="toggleSidebar()">
         <span></span>
@@ -196,42 +196,34 @@
         <li><a href="https://www.cdu.edu.au/">Home</a></li>
         <li><a href="http://learnline.cdu.edu.au/studyskills/index.html">Study Skills</a></li>
         <li><a href="index.html">Note Making</a></li>
-        <li>Note Layouts</li>
+        <li><a href="notelayouts.html">Note Layouts</a></li>
       </ul>
 
       <div class="toggleNight"></div>
       <div class="pageContent">
-      <div class=layouts_box>
-        <div class=layout_choice_box>
-          <button class=linear onclick="change_linear()">
-            <h2>Linear notes</h2>
+      <div class=effective_box>
+        <div class=effective_choicebox>
+          <button class=inLectures onclick="in_Lectures()">
+            <h2>Taking Notes in Lectures</h2>
           </button>
 
-          <button class=keyword onclick="change_keyword()">
-            <h2>Keyword trees</h2>
+          <button class=notesfromtext onclick="notes_fromtext()">
+            <h2>Making Notes from Text</h2>
           </button>
 
-          <button class=mindmap onclick="change_mindmap()">
-            <h2>Mind maps</h2>
+          <button class=duringLecture onclick="during_thelecture()">
+            <h2>During the Lecture</h2>
           </button>
 
-          <button class=network onclick="change_network()">
-            <h2>Network structure</h2>
-          </button>
-
-          <button class=herringbone onclick="change_herringbone()">
-            <h2>Herringbone technique</h2>
-          </button>
-
-          <button class=three_column onclick="change_three_column()">
-            <h2>3 column approach</h2>
+          <button class=afterLecture onclick="after_Lecture()">
+            <h2>After the Lecture</h2>
           </button>
         </div>
 
-        <div class=layout_content_box>
-          <img src="images/notelayout.jpg" alt="note layouts">
-          <h2> Note layouts </h2>
-          <p> There are many ways you can lay out your notes. Some common approaches are demonstrated in this section. Click on the labels to view more details. </p>
+        <div class=effective_content_box>
+          <img src="images/effective_notemaking.jpg" alt="note layouts">
+          <h2> Effective Note Making </h2>
+          <p> Effective Note Making is a skill developed over time. On these pages you will be given tips on how to begin taking effective notes. </p>
         </div>
       </div>
       </div>

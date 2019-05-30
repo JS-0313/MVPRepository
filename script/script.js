@@ -72,7 +72,7 @@ function change_abbreviations() {
 }
 
 function in_Lectures() {
-  document.querySelector('').innerHTML = "<p> Remember, Do:</p>" +
+  document.querySelector('effective_content').innerHTML = "<p> Remember, Do:</p>" +
                                                             "<ul>" +
                                                             "<li>Translate information into your own words</li>" +
                                                             "<li>Record the sources of the information</li>" +
@@ -86,7 +86,7 @@ function in_Lectures() {
 }
 
 function notes_fromtext(){
-  document.querySelector('').innerHTML = "<p>When you take notes from texts, these are some features you will want to include</p>" +
+  document.querySelector('effective_content').innerHTML = "<p>When you take notes from texts, these are some features you will want to include</p>" +
                                          "<ul>" +
                                          "<li>Main points and supporting details</li>" +
                                          "<li>Topic specific terms, phrases and key words</li>" +
@@ -98,7 +98,7 @@ function notes_fromtext(){
 }
 
 function during_thelecture() {
-  document.querySelector('').innerHTML = "<p>Remember, if you can not find the information available anywhere else, make your notes as detailed as possible. If the information is available, focus on points and issues highlighted by the lecturer.</p>" +
+  document.querySelector('effective_content').innerHTML = "<p>Remember, if you can not find the information available anywhere else, make your notes as detailed as possible. If the information is available, focus on points and issues highlighted by the lecturer.</p>" +
                                          "<br>" +
                                          "<p>Here are some common things you should note down</p>" +
                                          "<ul>" +
@@ -113,7 +113,7 @@ function during_thelecture() {
 }
 
 function after_Lecture() {
-  document.querySelector('').innerHTML = "<p>After the lecture, you should review your notes. This will help you to:</p>" +
+  document.querySelector('effective_content').innerHTML = "<p>After the lecture, you should review your notes. This will help you to:</p>" +
                                          "<ul>" +
                                          "<li>Find gaps in your knowledge</li>" +
                                          "<li>Find questions that need to be explained more</li>" +

@@ -171,7 +171,7 @@ body {
 }
 
 .sidebar_nav a:hover {
-  background-image:linear-gradient(#00064D, black);
+  background-image: linear-gradient(#DC494F, #B23C40);
 }
 
 .dropdown_mainSection ul, .dropdown_page ul, .dropdown_subSection ul, .dropdown_subPage ul{
@@ -181,20 +181,21 @@ body {
 .dropdown_mainSection li:hover > ul, .dropdown_page li:hover > ul, .dropdown_subSection li:hover > ul, .dropdown_subPage li:hover >  ul{
   display: block;
 }
+
 .dropdown_mainSection a {
-  background-image: linear-gradient(#103768, #00264D);
+  background-image: linear-gradient(#98161A, darkred);
 }
 
 .dropdown_page a {
-  background-image: linear-gradient(#0F52BA, #0C3D92);
+  background-image: linear-gradient(#3F50DA , #00264D);
 }
 
 .dropdown_subSection a {
-  background-image: linear-gradient(green, darkgreen);
+  background-image: linear-gradient( #313FAB, #062B21);
 }
 
 .dropdown_subPage a {
-  background-image: linear-gradient(#9B181C, darkred);
+  background-image: linear-gradient(#232C77, #0C3D92);
 }
 
 @media(max-width:768px){
@@ -241,11 +242,6 @@ body {
   height: 5px;
   background: #151719;
   margin: 5px 0px;
-}
-
-#mobile_nav_bar a{
-  color: #fff;
-  text-decoration: none;
 }
 
 @media (min-width:768px){
@@ -359,6 +355,11 @@ main .main_page_intro{
 .breadcrumb li a {
   color: #0275d8;
   text-decoration: none;
+}
+
+.breadcrumb li:last-child {
+  color: #98161A;
+  font-weight: bold;
 }
 
 .breadcrumb li a:hover {
@@ -676,20 +677,4 @@ main.night .contact h2 {
 
 main.night .contact_info_list {
   color: #fff;
-}
-
-main.night .inLectures {
-  background-color: #1B1B1B ;
-}
-
-main.night .notesfromtext {
-  background-color: #1B1B1B ;
-}
-
-main.night .duringLecture {
-  background-color: #1B1B1B ;
-}
-
-main.night .afterLecture {
-  background-color: #1B1B1B ;
 }
