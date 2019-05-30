@@ -243,6 +243,11 @@ body {
   margin: 5px 0px;
 }
 
+#mobile_nav_bar a{
+  color: #fff;
+  text-decoration: none;
+}
+
 @media (min-width:768px){
   #mobile_nav_bar{
     display: none;
