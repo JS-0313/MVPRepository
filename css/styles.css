@@ -411,10 +411,9 @@ main .all_cards .single_card h2{
 
 }
 
-main .all_cards .single_card a, a:visited {
+main .all_cards a, main .all_cards a:visited {
 		text-decoration: none;
     color: black;
-
 }
 
 input[type='checkbox'] {
