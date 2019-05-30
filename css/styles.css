@@ -44,7 +44,7 @@ body {
 }
 
 body.night{
-  background: #00151f;
+  background: #000000;
 }
 
 .container {
@@ -582,7 +582,7 @@ footer img{
   top: 40px;
   right: 50px;
   background: #fff;
-  border: 2px solid #00151f;
+  border: 2px solid #000000;
   width: 45px;
   height: 21px;
   cursor: pointer;
@@ -597,7 +597,7 @@ footer img{
   left: 2px;
   width: 15px;
   height: 15px;
-  background: #00151f;
+  background: #000000;
   border-radius: 50%;
   transition: 0.5s;
 }
@@ -608,7 +608,7 @@ footer img{
 }
 
 .toggleNight.active {
-  background: #00151f;
+  background: #000000;
   border: 2px solid #fff;
 }
 
@@ -625,7 +625,7 @@ footer img{
 }
 
 body.night .pageContent{
-  background: #00151f;
+  background: #000000;
 }
 
 body.night .pageContent h2{
@@ -641,15 +641,15 @@ body.night .pageContent ul {
 }
 
 main.night .orgnotesintro{
-  background: #00151f;
+  background: #2A2929;
 }
 
 main.night .tipstools_box {
-  background: #00151f;
+  background: #2A2929;
 }
 
 main.night .tipstools_choicebox {
-  background: #2A2929;
+  background: #362D2D;
 }
 
 main.night .tools {
@@ -669,7 +669,7 @@ main.night .revision {
 }
 
 main.night .breadcrumb {
-  background-color: #00151f;
+  background-color: #000000;
 
 }
 
@@ -690,13 +690,13 @@ main.night .breadcrumb li+li:before {
 }
 
 main.night .contact {
-  background-color: #00151f;
+  background-color: #000000;
 }
 
 main.night .contact h2 {
   color: #fff;
 }
 
-main.night .contact_info_list a{
+main.night .contact_info_list {
   color: #fff;
 }
