@@ -70,3 +70,53 @@ function change_abbreviations() {
                                                               "<li>W/ -> With</li>" +
                                                               "<li>W/out -> Without</li>"
 }
+
+function in_Lectures() {
+  document.querySelector('').innerHTML = "<p> Remember, Do:</p>" +
+                                                            "<ul>" +
+                                                            "<li>Translate information into your own words</li>" +
+                                                            "<li>Record the sources of the information</li>" +
+                                                            "<li>Organise your notes, read more about it on the Note Organisation page </li>" +
+                                                            "<li>Review your notes regularly, fill in any information gaps if need be</li>" +
+                                                            "<li>Make backups of your notes</li>" +
+                                                            "<br>" +
+                                                            "<p> Remember, Do not:" +
+                                                            "<li>Do not write every word, select the most important information</li>" +
+                                                            "<li>Do not write complete sentences, use abbreviations where possible</li>"
+}
+
+function notes_fromtext(){
+  document.querySelector('').innerHTML = "<p>When you take notes from texts, these are some features you will want to include</p>" +
+                                         "<ul>" +
+                                         "<li>Main points and supporting details</li>" +
+                                         "<li>Topic specific terms, phrases and key words</li>" +
+                                         "<li>Definitions</li>" +
+                                         "<li>Diagrams</li>" +
+                                         "<li>Formulae</li>" +
+                                         "<li>Calculations</li>" +
+                                         "<li>Quotes</li>"
+}
+
+function during_thelecture() {
+  document.querySelector('').innerHTML = "<p>Remember, if you can not find the information available anywhere else, make your notes as detailed as possible. If the information is available, focus on points and issues highlighted by the lecturer.</p>" +
+                                         "<br>" +
+                                         "<p>Here are some common things you should note down</p>" +
+                                         "<ul>" +
+                                         "<li>Main points emphasised by your lecturer</li>" +
+                                         "<li>Topic specific terms, phrases and key words</li>" +
+                                         "<li>Definitions</li>" +
+                                         "<li>Examples</li>" +
+                                         "<li>Diagrams</li>" +
+                                         "<li>Formulae</li>" +
+                                         "<li>Calculations</li>" +
+                                         "<li>Relevant questions and answers</li>"
+}
+
+function after_Lecture() {
+  document.querySelector('').innerHTML = "<p>After the lecture, you should review your notes. This will help you to:</p>" +
+                                         "<ul>" +
+                                         "<li>Find gaps in your knowledge</li>" +
+                                         "<li>Find questions that need to be explained more</li>" +
+                                         "<li>Highlight key points</li>" +
+                                         "<li>Add relevant references</li>"
+}
