@@ -198,7 +198,7 @@
 
       <ul class="breadcrumb">
         <li><a href="https://www.cdu.edu.au/">Home</a></li>
-        <li><a href="http://learnline.cdu.edu.au/studyskills/index.html">Study Skills</a></li>
+        <li><a href="index.html">Study Skills</a></li>
         <li>Note Making</li>
       </ul>
 
@@ -248,13 +248,24 @@
             </div>
           </div>
       </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $('.toggleNight').click(function(){
+          $('.toggleNight').toggleClass('active')
+          $('body').toggleClass('night')
+          $('main').toggleClass('night')
+        })
+      })
+    </script>
+    </div>
 
       <div class="contact">
           <h2 align="middle">Contact and support<h2>
             <ul class="contact_info_list" align="middle">
-              <li><a href=#>Check our FAQs</a></li>
-              <li><a href=#>Call for help</a></li>
-              <li><a href=#>Follow us on Facebook</a></li>
+              <li><a href="#">Check our FAQs</a></li>
+              <li><a href="https://www.cdu.edu.au/contact-cdu">Call for help</a></li>
+              <li><a href="https://www.facebook.com/CharlesDarwinUniversity/">Follow us on Facebook</a></li>
             </ul>
       </div>
 

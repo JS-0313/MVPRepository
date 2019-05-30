@@ -36,6 +36,10 @@ function change_three_column(){
     = '<img src="images/3column.png" alt="3 column notetaking"><p>In the first column, write the main subjects or topics from the text; In the second column, write significant details you learned from reading the text,from research or discussion. In the third column, jot down opinions, observations, thoughts, etc.</p>';
 }
 
+
+function toggleSidebar() {
+  document.getElementById("mobile_nav_bar").classList.toggle("active");
+}
 // Yufan Sun: I tried to use eventlistener instead of onclick here but it doesnt work... so finally inorder to show the functionality i use onclick.
 
 //linear.addEventListener("click",change_linear());

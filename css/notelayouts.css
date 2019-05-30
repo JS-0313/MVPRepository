@@ -316,6 +316,12 @@ main .main_page_intro{
     main .intro_content p{
       display: none;
     }
+
+    main .main_page_intro {
+      max-width: 100%;
+      height:auto;
+    }
+
 }
 
 
@@ -358,22 +364,33 @@ main .main_page_intro{
 /*card component on small screen*/
 
 @media (max-width:767px){
-  main .card_img img{
-    width: auto ;
-    max-width: 100% ;
-    height: auto ;
-    max-height: 100% ;
+  main .layout_content_box img{
+    max-width: 100%;
+    height:auto;
   }
 
-  main .card_img {
-  	width: 100%;
-    height: auto;
+  main .layout_choice_box h2{
+    font-size: 25px;
+    font-family:arial;
   }
 
-  main .card_intro{
-    display: block;
-    padding: 5px;
-  }
+    main .layout_content_box{
+      margin:8px;
+    }
+
+    main .layout_content_box h2{
+      font-size: 35px;
+    }
+
+
+
+    main .layout_content_box p{
+      padding:20px;
+      text-align: justify;
+      width:100%;
+      margin: 0px;
+      font-size: 20px;
+    }
 }
 
 /*card component on a large screen*/
@@ -435,25 +452,6 @@ main .main_page_intro{
     height:auto;
   }
 
-  main .card_intro{
-    width:100%;
-    font-size: 15px;
-    text-align: left;
-    border: 1px solid rgba(100,100,100,0.3);
-  }
-
-  main .all_cards .single_card h2{
-  	 margin-bottom: 5px;
-     color: black;
-     font: bold 40px, Sans-Serif;
-     letter-spacing: -1px;
-     text-align: left;
-
-  }
-
-  main .all_cards .single_card a{
-  		text-decoration: none;
-  }
 
 }
 

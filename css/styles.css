@@ -740,3 +740,8 @@ main.night .breadcrumb li+li:before {
   color: #fff;
   content: "/\00a0";
 }
+
+main.night .single_card, main.night .all_cards, main.night .card_intro, main.night .main_page_intro, main.night .intro_text, main.night .card_img {
+  color: #fff;
+  background: #1B1B1B;
+}
