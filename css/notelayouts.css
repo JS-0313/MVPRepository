@@ -611,13 +611,18 @@ body.night .pageContent ul {
 }
 
 main.night .breadcrumb {
-  background-color: #000000;
+  background-color: #2A2929;
 
 }
 
 main.night .layouts_box{
-  background-color: #000000;
+  background-color: #2A2929;
 }
+
+main.night .layouts_choice_box{
+  background-color: #362D2D;
+}
+
 main.night .linear{
   background: #1B1B1B;
 }
@@ -659,7 +664,7 @@ main.night .breadcrumb li+li:before {
 }
 
 main.night .contact {
-  background-color: #000000;
+  background-color: #2A2929;
 }
 
 main.night .contact h2 {
