@@ -350,6 +350,11 @@ main .main_page_intro img{
   font-size: 18px;
 }
 
+.breadcrumb li:last-child {
+  color: #98161A;
+  font-weight: bold;
+}
+
 .breadcrumb li+li:before {
   padding: 8px;
   color: black;
@@ -681,27 +686,15 @@ footer img{
   transition: 0.5s;
 }
 
-body.night .pageContent{
+body.night .pageContent, main.night .breadcrumb, main.night .contact {
   background: #000000;
 }
 
-body.night .pageContent h2{
+body.night .pageContent h2, body.night .pageContent p, body.night .pageContent ul, main.night .contact h2, main.night .contact_info_list {
   color: #fff;
 }
 
-body.night .pageContent p {
-  color: #fff;
-}
-
-body.night .pageContent ul {
-  color: #fff;
-}
-
-main.night .orgnotesintro{
-  background: #2A2929;
-}
-
-main.night .tipstools_box {
+main.night .orgnotesintro, main.night .tipstools_box, main.night .contact {
   background: #2A2929;
 }
 
@@ -709,25 +702,8 @@ main.night .tipstools_choicebox {
   background: #362D2D;
 }
 
-main.night .tools {
+main.night .tools, main.night .orgnotes, main.night .orgdigitalnotes, main.night .revision {
   background: #1B1B1B;
-}
-
-main.night .orgnotes {
-  background: #1B1B1B;
-}
-
-main.night .orgdigitalnotes {
-  background: #1B1B1B;
-}
-
-main.night .revision {
-  background: #1B1B1B;
-}
-
-main.night .breadcrumb {
-  background-color: #000000;
-
 }
 
 main.night .breadcrumb li a {
@@ -744,16 +720,4 @@ main.night .breadcrumb li+li:before {
   padding: 8px;
   color: #fff;
   content: "/\00a0";
-}
-
-main.night .contact {
-  background-color: #000000;
-}
-
-main.night .contact h2 {
-  color: #fff;
-}
-
-main.night .contact_info_list {
-  color: #fff;
 }
