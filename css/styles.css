@@ -484,8 +484,42 @@ input[type='checkbox'] {
     margin-right: 0px;
     display: inline-block;
     left:10%;
+}
+
+  main .tipstools_box {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    background-color: white;
+    left:5%;
+    right:5%;
   }
 
+  main .tipstools_choicebox {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+
+  main .tipstools_choicebox, .tools, .orgnotes, .orgdigitalnotes, .revision {
+    background-color: white;
+    margin:5px;
+    padding: 5px;
+    border: 1px solid rgba(100,100,100,0.3);
+  }
+
+  main .tipstools_choicebox h2 {
+    font-size: 25px;
+    font-family:arial;
+  }
+
+  main .tipstools_content {
+    height: auto;
+    width: 100%;
+  }
 
 }
 
