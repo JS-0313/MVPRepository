@@ -36,6 +36,20 @@ function change_three_column(){
     = '<img src="images/3column.png" alt="3 column notetaking"><p>In the first column, write the main subjects or topics from the text; In the second column, write significant details you learned from reading the text,from research or discussion. In the third column, jot down opinions, observations, thoughts, etc.</p>';
 }
 
+function expandMainSection() {
+  document.querySelector(".dropdown_mainSection").classList.toggle("active");
+  document.getElementById("arrow1").classList.toggle("rotated");
+}
+
+function expandPage() {
+  document.querySelector(".dropdown_page").classList.toggle("active");
+  document.getElementById("arrow2").classList.toggle("rotated");
+}
+
+function expandsubSection() {
+  document.querySelector(".dropdown_subSection").classList.toggle("active");
+  document.getElementById("arrow3").classList.toggle("rotated");
+}
 
 function toggleSidebar() {
   document.getElementById("mobile_nav_bar").classList.toggle("active");
