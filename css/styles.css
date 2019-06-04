@@ -790,6 +790,10 @@ main.night .orgnotesintro, main.night .tipstools_box, main.night .contact {
   background: #2A2929;
 }
 
+main.night .effective_content_box{
+  background: #2A2929;
+}
+
 main.night .tipstools_choicebox {
   background: #362D2D;
 }
