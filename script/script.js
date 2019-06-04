@@ -2,6 +2,21 @@ function toggleSidebar() {
   document.getElementById("mobile_nav_bar").classList.toggle("active");
 }
 
+function expandMainSection() {
+  document.querySelector(".dropdown_mainSection").classList.toggle("active");
+  document.getElementById("arrow1").classList.toggle("rotated");
+}
+
+function expandPage() {
+  document.querySelector(".dropdown_page").classList.toggle("active");
+  document.getElementById("arrow2").classList.toggle("rotated");
+}
+
+function expandsubSection() {
+  document.querySelector(".dropdown_subSection").classList.toggle("active");
+  document.getElementById("arrow3").classList.toggle("rotated");
+}
+
 function change_tools() {
   document.querySelector('.tipstools_content').innerHTML =  "<p>This is a list of tools and resources you can use when organising your physical notes:</p>" +
               "<ul>" +

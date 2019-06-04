@@ -168,18 +168,25 @@ body.night{
   margin: 0;
 }
 
-.sidebar_nav ul{
+.sidebar_nav * {
   padding: 0;
   margin: 0;
 }
+
+.sidebar_nav ul {
+  list-style: none;
+}
+
 .sidebar_nav li {
   background-color: #98161A;
 }
 
 .sidebar_nav a {
-  display: block;
+  display: inline-block;
   color: white;
   padding: 1% 5% 1% 5%;
+  width: 80%;
+  height: 100%;
   border-bottom: 1px dotted white;
   text-decoration: none;
   font-size: 1.25vw;
@@ -187,31 +194,41 @@ body.night{
 }
 
 .sidebar_nav a:hover {
-  background-image: linear-gradient(#DC494F, #B23C40);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.dropdown_mainSection ul, .dropdown_page ul, .dropdown_subSection ul, .dropdown_subPage ul{
+.arrowIcon {
+  width: 10%;
+  display: inline-block;
+  float: right;
+}
+
+.arrowIcon.rotated {
+  transform: rotate(180deg);
+}
+
+.dropdown_mainSection > li > ul, .dropdown_page > li > ul, .dropdown_subSection > li > ul, .dropdown_subPage > li > ul {
   display: none;
 }
 
-.dropdown_mainSection li:hover > ul, .dropdown_page li:hover > ul, .dropdown_subSection li:hover > ul, .dropdown_subPage li:hover >  ul{
+.dropdown_mainSection.active > li > ul, .dropdown_page.active > li > ul, .dropdown_subSection.active > li > ul, .dropdown_subPage.active > li > ul {
   display: block;
 }
 
-.dropdown_mainSection a {
-  background-image: linear-gradient(#98161A, darkred);
+.dropdown_mainSection li {
+    background-color: #98161A;
 }
 
-.dropdown_page a {
-  background-image: linear-gradient(#3F50DA , #00264D);
+.dropdown_page li {
+  background-color: #3F50DA;
 }
 
-.dropdown_subSection a {
-  background-image: linear-gradient( #313FAB, #062B21);
+.dropdown_subSection li {
+  background-color: #313FAB;
 }
 
-.dropdown_subPage a {
-  background-image: linear-gradient(#232C77, #0C3D92);
+.dropdown_subPage li {
+  background-color: #232C77;
 }
 
 @media(max-width:768px){
